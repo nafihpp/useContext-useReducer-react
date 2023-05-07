@@ -18,7 +18,7 @@ export const UseReducerUseContext = () => {
     };
     return (
         <div>
-            <h1>useReducer & userContext</h1>
+            <h1>useReducer with userContext</h1>
             <p>{value.state.count}</p>
             <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button>
