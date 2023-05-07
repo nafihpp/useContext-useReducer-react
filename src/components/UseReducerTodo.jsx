@@ -4,9 +4,17 @@ import { ACTIONS } from "../reducer/ACTIONS";
 
 export const UseReducerTodo = () => {
     const intialState = { count: 0 };
+
     const [state, dispatch] = useReducer(reducer, intialState);
-    const increment = () => dispatch({ type: ACTIONS.INCREMENT });
-    const decrement = () => dispatch({ type: ACTIONS.DECREMENT });
+
+    const increment = () => {
+        dispatch({ type: ACTIONS.INCREMENT });
+    };
+
+    const decrement = () => {
+        dispatch({ type: ACTIONS.DECREMENT });
+    };
+
     const incrementby = () => {
         dispatch({ type: ACTIONS.INCREMENTBY, payload: 5 });
     };
