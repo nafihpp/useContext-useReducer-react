@@ -1,15 +1,11 @@
 import { Fragment } from "react";
 import "./App.css";
-// import { UseContextTodo } from "./components/useContextTodo";
-// import { UseReducerTodo } from "./components/useReducerTodo";
-// import { UseReducerUseContext } from "./components/useReducerUseContext";
+import { UseReducerTodo } from "./components/useReducerTodo";
 
 function App() {
     return (
         <Fragment>
-            {/* <UseContextTodo /> */}
-            {/* <UseReducerTodo /> */}
-            {/* <UseReducerUseContext /> */}
+            <UseReducerTodo />
         </Fragment>
     );
 }
