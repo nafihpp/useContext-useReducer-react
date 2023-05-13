@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { CounterContext1 } from "../useReducer&useContext/CounterContext1";
 import { ACTIONS } from "../useReducer&useContext/ACTIONS";
 
-export const UseReducerUseContext = () => {
+const UseReducerUseContext = () => {
     const value = useContext(CounterContext1);
 
     const increment = () => {
@@ -26,3 +26,5 @@ export const UseReducerUseContext = () => {
         </div>
     );
 };
+
+export default UseReducerUseContext;

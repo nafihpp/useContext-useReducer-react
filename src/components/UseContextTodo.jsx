@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { CounterContext } from "../context/CounterContext";
 
-export const UseContextTodo = () => {
+const UseContextTodo = () => {
     const state = useContext(CounterContext);
 
     const decrement = () => {
@@ -24,3 +24,5 @@ export const UseContextTodo = () => {
         </div>
     );
 };
+
+export default UseContextTodo;

@@ -2,7 +2,7 @@ import React, { useReducer, useState } from "react";
 import { reducer } from "../reducer/CounterReducer";
 import { ACTIONS } from "../reducer/ACTIONS";
 
-export const UseReducerTodo = () => {
+const UseReducerTodo = () => {
     const intialState = { count: 0 };
 
     const [state, dispatch] = useReducer(reducer, intialState);
@@ -29,3 +29,4 @@ export const UseReducerTodo = () => {
         </div>
     );
 };
+export default UseReducerTodo;
